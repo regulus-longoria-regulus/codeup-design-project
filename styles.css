@@ -1,0 +1,27 @@
+body {
+    background-color: #e6e6e6;
+}
+.list {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    columns: 105px 2;
+    color: #f0f0f0;
+}
+.circle {
+    width: 105px;
+    height:105px;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle2 {
+    width: 120px;
+    height:120px;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
