@@ -4,6 +4,9 @@ body {
 .navbar {
     margin: 0 -9em;
 }
+.nav-item {
+    color: black;
+}
 .logo{
     width: 105px;
     height: 105px;
@@ -40,6 +43,7 @@ ul {
     border-radius: 50%;
     color: black;
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
     font-family: 'Anton', sans-serif;
@@ -50,4 +54,15 @@ img {
     border-width: 10px;
     border-radius: 2%;
     border-color: #e6e6e6;
+    width: 100%;
+}
+
+@media screen and(max-width: 576px) {
+    img {
+        border-style: solid;
+        border-width: 10px;
+        border-radius: 2%;
+        border-color: #e6e6e6;
+        width: 100%;
+    }
 }
