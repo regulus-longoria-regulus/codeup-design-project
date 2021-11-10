@@ -1,6 +1,9 @@
 body {
     background-color: #f0f0f0;
 }
+.navbar {
+    margin: 0 -9em;
+}
 .logo{
     width: 105px;
     height: 105px;
