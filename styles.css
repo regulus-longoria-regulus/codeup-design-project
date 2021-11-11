@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #e6e6e6;
+    background-color: #f0f0f0;
 }
 .circle {
     border: 5px solid white;
@@ -43,4 +43,10 @@ h2 {
 }
 h5 {
     font-family: 'Abel', sans-serif;
+}
+.first-pic, .second-pic, .third-pic, .fourth-pic {
+    border-radius: 1%;
+    padding: 0px;
+    margin: 0;
+    border: 10px solid #e6e6e6;
 }
