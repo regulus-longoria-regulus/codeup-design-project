@@ -18,7 +18,10 @@ body {
     border-radius: 50%;
     width:  105px;
     height: 105px;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     line-height: 0;
     margin: 2em;
 }
@@ -29,7 +32,6 @@ body {
     text-align: center;
     width: 100%;
     bottom: 50%;
-    position: absolute;
 }
 .small-circle {
     width: 18px;
