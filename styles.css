@@ -4,6 +4,15 @@
 body {
     background-color: #f0f0f0;
 }
+.logo {
+    border: none !important;
+}
+.navbar {
+    margin: 0;
+}
+.circles {
+    border-bottom: 1px solid grey ;
+}
 .circle {
     border: 5px solid white;
     border-radius: 50%;
@@ -11,6 +20,7 @@ body {
     height: 105px;
     position: relative;
     line-height: 0;
+    margin: 2em;
 }
 .circle-text {
     color: white;
@@ -28,6 +38,7 @@ body {
     margin-left: 10px;
     position: relative;
     line-height: 0;
+
 }
 .sm-circle-text {
     text-align: center;
@@ -47,12 +58,30 @@ h1 {
 h2 {
     font-size: 48px;
 }
+h4 {
+    font-size: 32px;
+}
 h5 {
     font-family: 'Abel', sans-serif;
 }
-.first-pic, .second-pic, .third-pic, .fourth-pic {
+img {
     border-radius: 1%;
     padding: 0px;
     margin: 0;
     border: 10px solid #e6e6e6;
+}
+.sec {
+
+}
+.thumbnail {
+    margin-bottom: 4em;
+}
+.fab {
+    color: #1c99e6;
+}
+.bottom-header {
+    margin-bottom: 3em;
+}
+.para {
+    margin-top: 1em;
 }
