@@ -1,14 +1,9 @@
 * {
     box-sizing: border-box;
 }
-body {
-    background-color: #f0f0f0;
-}
+
 .logo {
     border: none !important;
-}
-.navbar {
-    margin: 0;
 }
 .circles {
     border-bottom: 1px solid grey ;
@@ -86,3 +81,35 @@ img {
 .para {
     margin-top: 1em;
 }
+li {
+    list-style: none;
+    margin: 0 2vw;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 2vw;
+    font-family: Abel;
+}
+
+nav {
+    width: 100vw;
+    background-color: #D6EFF ;
+
+}
+
+
+ul {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+body {
+    margin:0;
+}
+
